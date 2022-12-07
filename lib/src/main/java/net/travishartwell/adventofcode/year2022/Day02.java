@@ -2,7 +2,7 @@ package net.travishartwell.adventofcode.year2022;
 
 import java.util.List;
 
-public class Day02 {
+public final class Day02 {
     public static Integer solvePart1(List<String> input) {
         int totalScore = 0;
 

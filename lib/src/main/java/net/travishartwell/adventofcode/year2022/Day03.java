@@ -9,7 +9,7 @@ import java.util.stream.IntStream;
 
 import static java.lang.Character.isUpperCase;
 
-public class Day03 {
+public final class Day03 {
     static Integer charToPriority(Character character) {
         if (isUpperCase(character)) {
             return (character - 'A') + 27;

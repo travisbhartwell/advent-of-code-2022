@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Day01 {
+public final class Day01 {
     private static List<Integer> getCaloriesPerElf(List<String> input) {
         List<Integer> caloriesPerElf = new ArrayList<>();
         int elfCalorieSum = 0;
