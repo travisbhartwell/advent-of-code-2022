@@ -2,7 +2,6 @@ package net.travishartwell.adventofcode.year2022;
 
 import java.util.HashSet;
 import java.util.List;
-import java.util.Optional;
 import java.util.Set;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
@@ -29,7 +28,6 @@ public class Day03 {
         for (String line : input) {
             final int compartmentSize = line.length() / 2;
 
-            IntStream limit = line.chars().limit(5);
             final Set<Character> firstCompartment = charsToCharSet(line.chars().limit(compartmentSize));
             final Set<Character> secondCompartment = charsToCharSet(line.chars().skip(compartmentSize));
 
